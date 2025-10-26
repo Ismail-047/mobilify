@@ -1,0 +1,56 @@
+/* ===== Promotions Page ===== */
+.promotions-section {
+    text-align: center;
+}
+
+.promotions-section h2 {
+    margin-bottom: 0.5rem;
+}
+
+.promotions-section p {
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.promotions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.promo-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.promo-card:hover {
+    transform: translateY(-5px);
+}
+
+.promo-card h3 {
+    margin-bottom: 0.5rem;
+    color: #111;
+}
+
+.promo-card p {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.promo-card button {
+    background-color: #111;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.promo-card button:hover {
+    background-color: #ffcc00;
+    color: #111;
+}
